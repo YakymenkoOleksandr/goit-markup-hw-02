@@ -1,44 +1,50 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
+    color: #434455;
 }
 
 a {
     text-decoration: none;
     color: #2E2F42;
-    font-style: normal;
 }
 
 .logoheader {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3%;
-    color: #2E2F42;
+    color: #4d5ae5;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .logoheader>span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .logofooter {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3%;
-    color: #F4F4FD;
+    color: #4d5ae5;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .logofooter>span {
-    color: #4D5AE5;
+    color: #f4f4fd;
 }
 
 .nav {
     font-weight: 500;
     color: #2E2F42;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .uppermain {
@@ -46,9 +52,11 @@ a {
     text-align: center;
 }
 
-h1 {
+.uppermain > h1 {
     color: #FFFFFF;
     font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 
@@ -69,6 +77,8 @@ h2 {
 
 .footertext {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .orderservice {
@@ -76,6 +86,9 @@ h2 {
     color: #FFFFFF;
     cursor: pointer;
     font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    letter-spacing: 0.04em
 }
 
 li {
@@ -84,6 +97,7 @@ li {
 
 .address {
     font-size: 16px;
+    font-style: normal
 }
 
 .content {
