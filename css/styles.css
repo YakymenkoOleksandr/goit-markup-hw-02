@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #2E2F42;
+    font-style: normal;
+}
+
+.logoheader {
+    font-family: "Raleway";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3%;
+    color: #2E2F42;
+    font-size: 18px;
+}
+
+.logoheader > span  {
+    color: #4D5AE5;
+}
+
+.logofooter {
+    font-family: "Raleway";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3%;
+    color: #F4F4FD;
+    font-size: 18px;
+}
+
+.logofooter>span {
+    color: #4D5AE5;
+}
+
+.nav {
+    font-weight: 500;
+    color:#2E2F42;
+    font-size: 16px;
+}
+
+.uppermain {
+    background-color: #2E2F42;
+    text-align: center;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 56px;
+}
+
+
+h2 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.ourteam {
+    background-color:#F4F4FD;;
+} 
+
+.footer {
+    background-color: #2E2F42;;
+}
+
+.footertext {
+    color: #F4F4FD;
+}
+
+.orderservice {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.address {
+    font-size: 16px;
+}
+
+.content {
+    color: #FFFFFF;
+}
+
+.ourteam > h3 {
+    text-align: center;
+}
+
+.ourteam > p {
+    text-align: center;
+}
+
