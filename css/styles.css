@@ -18,7 +18,7 @@ a {
     font-size: 18px;
 }
 
-.logoheader > span  {
+.logoheader>span {
     color: #4D5AE5;
 }
 
@@ -37,7 +37,7 @@ a {
 
 .nav {
     font-weight: 500;
-    color:#2E2F42;
+    color: #2E2F42;
     font-size: 16px;
 }
 
@@ -58,11 +58,13 @@ h2 {
 }
 
 .ourteam {
-    background-color:#F4F4FD;;
-} 
+    background-color: #F4F4FD;
+    ;
+}
 
 .footer {
-    background-color: #2E2F42;;
+    background-color: #2E2F42;
+    ;
 }
 
 .footertext {
@@ -88,11 +90,10 @@ li {
     color: #FFFFFF;
 }
 
-.ourteam > h3 {
+.ourteam>h3 {
     text-align: center;
 }
 
-.ourteam > p {
+.ourteam>p {
     text-align: center;
 }
-
