@@ -4,12 +4,7 @@ body {
     background-color: #FFFFFF;
     color: #434455;
 }
-/*
-a {
-    text-decoration: none;
-    color: #2E2F42;
-}
-*/
+
 h2 {
     font-weight: 700;
     text-align: center;
@@ -53,7 +48,7 @@ li {
 }
 
 
- /*Імейл та телефон*/
+/*Імейл та телефон*/
 
 .email {
     font-size: 16px;
@@ -145,9 +140,14 @@ li {
 
 /*Секція 3. Наша команда. Фото команди*/
 
+.frame {
+    background-color: #FFFFFF;
+}
+
 .ourteam {
     background-color: #F4F4FD;
 }
+
 
 .headerourteam {
     font-size: 36px;
@@ -173,24 +173,6 @@ li {
     color: #2e2f42;
 }
 
-
-/*
-
-.sectionfour h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42
-}
-
-.sectionfour p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-*/
 /* Footer */
 
 .footer {
