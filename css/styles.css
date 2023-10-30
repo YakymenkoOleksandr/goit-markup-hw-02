@@ -32,7 +32,7 @@ li {
     letter-spacing: 0.03em;
 }
 
-.logoheader>span {
+.spon {
     color: #2e2f42;
 }
 
@@ -44,8 +44,31 @@ li {
     letter-spacing: 0.02em;
 }
 
+.nav:hover {
+    color: #404bbf;
+}
+
+.nav:active {
+    color: #404bbf;
+}
+
 
  /*Імейл та телефон*/
+
+.email {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.email:hover {
+    color: #404bbf;
+}
+
+.email:active {
+    color: #404bbf;
+}
 
 .address {
     font-size: 16px;
@@ -54,12 +77,13 @@ li {
 
 /*Секція 1*/
 
-.uppermain {
-    background-color: #2E2F42;
-    text-align: center;
+.sectionone {
+    background-color: #2e2f42;
 }
 
-.uppermain>h1 {
+.sectionone .uppermain {
+    background-color: #2E2F42;
+    text-align: center;
     color: #FFFFFF;
     font-size: 56px;
     line-height: 1.07;
@@ -71,9 +95,29 @@ li {
     color: #FFFFFF;
     cursor: pointer;
     font-size: 16px;
-    letter-spacing: 0.02em;
     line-height: 1.5;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
+
+.orderservice:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
+
+.orderservice:active {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
 }
 
 
@@ -104,25 +148,31 @@ li {
 
 .ourteam {
     background-color: #F4F4FD;
-    ;
 }
 
-.ourteam>h3 {
+.headerourteam {
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.ourteam>p {
-    text-align: center;
-}
+
 
 /* Секція №4 */
 
+/*
 .ourportfolio {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+*/
+
+/*
 
 .sectionfour h3 {
     font-weight: 500;
@@ -138,12 +188,11 @@ li {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
+*/
 /* Footer */
 
 .footer {
     background-color: #2E2F42;
-    ;
 }
 
 .footertext {
@@ -163,6 +212,6 @@ li {
     letter-spacing: 0.03em;
 }
 
-.studio {
+.logofooter .studio {
     color: #f4f4fd;
 }
