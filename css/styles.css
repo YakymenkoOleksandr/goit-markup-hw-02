@@ -48,7 +48,7 @@ li {
     color: #404bbf;
 }
 
-.nav:active {
+.nav:focus {
     color: #404bbf;
 }
 
@@ -110,7 +110,7 @@ li {
     font-weight: 500;
 }
 
-.orderservice:active {
+.orderservice:focus {
     background-color: #404BBF;
     color: #FFFFFF;
     cursor: pointer;
@@ -123,6 +123,9 @@ li {
 
 /*Секція 2. Статті*/
 
+.content {
+    color: #FFFFFF;
+}
 
 .sectiontwoh3 {
     font-weight: 500;
@@ -139,10 +142,6 @@ li {
     color: #434455;
 }
 
-.content {
-    color: #FFFFFF;
-}
-
 
 /*Секція 3. Наша команда. Фото команди*/
 
@@ -151,12 +150,15 @@ li {
 }
 
 .headerourteam {
-    font-size: 36px;
-    line-height: 1.11;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    background-color: #FFFFFF;
+    font-weight: 500;
+
 }
 
 
